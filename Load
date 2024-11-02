@@ -1,0 +1,19 @@
+repeat
+    task.wait()
+until game.GameId ~= nil
+repeat
+    task.wait()
+until game:IsLoaded()
+
+if getgenv().loaded then
+    return
+end
+getgenv().loaded = true
+
+universeid = game.GameId
+
+setclipboard("https://discord.gg/7hGCWn2gCj")
+
+if universeid == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/doslobodydoedy/x/main/adopt.lua", true))()
+end
