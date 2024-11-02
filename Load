@@ -15,5 +15,5 @@ universeid = game.GameId
 setclipboard("https://discord.gg/7hGCWn2gCj")
 
 if universeid == 142823291 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/doslobodydoedy/x/main/adopt.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rusdiplays/main/mm2.lua", true))()
 end
